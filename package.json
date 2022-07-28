@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://alexispavon010.github.io/portafolio/",
   "scripts": {
     "deployd":"gh-pages -d ./dist",
     "dev": "vite",

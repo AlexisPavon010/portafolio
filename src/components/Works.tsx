@@ -5,9 +5,9 @@ export const Works = () => {
       <h2 className="titulo-seccion2">Some work</h2>
       <section id="somework" className="event-list">
         <article className="event">
-          <a className="event-url" href="https://alexispavon010.github.io/React-Clima-App/" target='blank' >
+          <a className="event-url" href="https://alexispavon010.github.io/oasis-fundation/" target='blank' >
             <figure className="event-imageContainer">
-              <img className="event-image" src="./assets/react-clima.png" />
+              <img className="event-image" src="./assets/oasis.png" />
             </figure>
           </a>
         </article>
@@ -22,6 +22,13 @@ export const Works = () => {
           <a className="event-url" href="https://alexispavon010.github.io/Sushi/" target='blank'>
             <figure className="event-imageContainer">
               <img className="event-image" src="./assets/react-tesla.png" alt="ImagenReact" width={300} />
+            </figure>
+          </a>
+        </article>
+        <article className="event">
+          <a className="event-url" href="https://picker-store.herokuapp.com/" target='blank'>
+            <figure className="event-imageContainer">
+              <img className="event-image" src="./assets/picker.png" alt="ImagenReact" width={300} />
             </figure>
           </a>
         </article>
