@@ -5,12 +5,13 @@
   "type": "module",
   "homepage": "https://alexispavon010.github.io/portafolio/",
   "scripts": {
-    "deployd":"gh-pages -d ./dist",
+    "deployd": "gh-pages -d ./dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -2,7 +2,7 @@
 export const Works = () => {
   return (
     <div className="contenedor-works">
-      <h2 className="titulo-seccion2">Some work</h2>
+      <h2 className="titulo-seccion2">Some works</h2>
       <section id="somework" className="event-list">
         <article className="event">
           <a className="event-url" href="https://alexispavon010.github.io/oasis-fundation/" target='blank' >
