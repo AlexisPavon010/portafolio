@@ -285,13 +285,15 @@ h1 {
   font-family: "Roboto Mono", serif;
   font-size: 10px;
   padding-left: 680px;
+  padding-top: 20px;
 }
 
 .hero h4 {
   font-family: "Oswald", serif;
   font-size: 15px;
-  margin-top: 50px;
-  /* padding: 0px 300px 0px 300px; */
+  padding-left: 200px;
+  position: absolute;
+  margin: 0;
 }
 
 .hero p {
@@ -433,7 +435,7 @@ h1 {
   color: black;
   height: 150px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -533,6 +535,13 @@ h1 {
     display: none;
   }
 
+  .hero>h4 {
+    position: static;
+    text-align: center;
+    padding-top: 290px;
+    padding-left: 0;
+  }
+
   .animated {
     padding: 320px 0px 0px 0px !important;
   }
@@ -549,5 +558,28 @@ h1 {
   .event-list {
     padding-top: 0px;
     flex-wrap: wrap;
+  }
+
+  .titulo-seccion {
+    transform: rotate(270deg);
+  }
+
+  .social-link.cv {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .sobremi {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
